@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class spawnCooldownCircle : MonoBehaviour
 {
     private Image cooldownImage;
-    public float cooldownTime = 0.5f;
+    public float cooldownTime = 0.2f;
     private float timer = 0f;
     private bool isCoolingDown = false;
     private void Start()

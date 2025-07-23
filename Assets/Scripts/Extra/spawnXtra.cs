@@ -32,7 +32,7 @@ public class spawnXtra : MonoBehaviour
     {
         spawnCooldownActive = true;
         spawnCooldownCircle.GetComponent<spawnCooldownCircle>().StartCooldown();
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         spawnCooldownActive = false;
     }
     void Update()
